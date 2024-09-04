@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assests/logo (2).png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="nav-option">
+          <div class="nav-opt" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-opt">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <!-- /*LIBRARY*/ -->
+
+        <div class="library">
+          <div class="lib-options">
+            <div class="lib-icon">
+              <img src="./assests/library_icon.png" alt="lib-icon" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="lib-boxes">
+            <div class="box">
+              <div class="box-p1">Create your first playlist</div>
+              <div class="box-p2">it's easy, we'll help you</div>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box-2 box" id="range">
+              <div class="box2-p1">Let's find some podcast to follow</div>
+              <div class="box2-p2">We'll keep you update on new episodes</div>
+              <button class="badge-2 badge">Browse podcast</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="sticky-nav">
+          <div class="sticky-nav-arrow">
+            <img src="./assests/backward_icon.png" alt="backward_icon" />
+            <img
+              src="./assests/forward_icon.png "
+              class="hide"
+              alt="forward_icon" />
+          </div>
+          <div class="sticky-nav-option">
+            <button class="badge hide">Explore Premium</button>
+            <button class="badge dark-badge">
+              <i
+                class="fa-solid fa-circle-arrow-down"
+                style="padding-right: 0.5rem"></i
+              >Install App
+            </button>
+            <i class="fa-regular fa-bell light"></i>
+            <i class="fa-regular fa-user light"></i>
+          </div>
+        </div>
+
+        <div class="cards">
+          <h3>Recently Played</h3>
+          <div class="card-container">
+            <img src="./assests/card1img.jpeg"   alt="card1img" />      
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+        </div>
+
+        <div class="trending-music">
+        <div class="cards">
+          <h3>Trending now near you</h3>
+          <div class="card-container">
+            <img src="./assests/card2img.jpeg" alt="card1img" />
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card-container" id="top-margin">
+            <img src="./assests/card3img.jpeg" alt="card1img" />
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card-container" id="top-margin">
+            <img src="./assests/card4img.jpeg" alt="card1img" />
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card-container" id="top-margin">
+            <img src="./assests/card2img.jpeg" alt="card1img">
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+          </div>
+
+          
+        <div class="cards">
+          <div class="card-container" id="top-margin">
+            <img src="./assests/card4img.jpeg" alt="card1img">
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+          </div>
+          
+          
+        <div class="cards">
+          <div class="card-container" id="top-margin">
+            <img src="./assests/card3img.jpeg" alt="card1img">
+            <div class="title">Top 50 - Globle</div>
+            <div class="info">Your daily update for most played track</div>
+          </div>
+          </div>
+</div>
+
+<div class="top-songs">
+  <div class="cards">
+    <h3>Featured Music</h3>
+    <div class="card-container">
+      <img src="./assests/card5img.jpeg" alt="card1img" />
+      <div class="title">Top Songs -Globle</div>
+      <div class="info">Your weekly update for most played track</div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <!-- <h3>Featured Music</h3> -->
+    <div class="card-container" id="top-margin">
+      <img src="./assests/card6img.jpeg" alt="card1img" />
+      <div class="title">Top Songs- India</div>
+      <div class="info">Your daily update for most played track</div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card-container" id="top-margin">
+      <img src="./assests/card1img.jpeg" alt="card1img" />
+      <div class="title">Top 50 - Globle</div>
+      <div class="info">Your daily update for most played track</div>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+</div>
+</div>
+
+      <div class="music_player">
+        <div class="album">
+          <img src="./assests/card2img.jpeg" alt="img">
+          <div class="music-wrap">
+            <div class="music-tittle">Moonlight</div>
+            <div class="music-name">Mahiye jinna sonna</div>
+          </div>
+          <div class="player-icon">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-brands fa-spotify"></i>
+        </div>
+        </div>
+<div class="player-control">
+        <div class="control-bar">
+<img src="./assests/play_musicbar.png" alt="">
+<img src="./assests/player_icon1.png" alt="">
+<img src="./assests/player_icon2.png" alt="">
+<img src="./assests/player_icon3.png" alt="" style="opacity: 1; height: 1.75rem;">
+<img src="./assests/player_icon4.png" alt="" >
+<img src="./assests/player_icon5.png" alt="">
+        </div>
+<div class="music-range">
+  <div class="start-time">00:00</div>
+  <input type="range" min="0" max="100" class="range" step="1">
+  <div class="end-time">3:33</div>
+</div>
+</div>
+        <div class="control-pannel">
+          <div class="control-icons">
+            <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-microphone"></i>
+          <i class="fa-solid fa-layer-group"></i>
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" min="0" max="100" step="1" class="volume">
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
